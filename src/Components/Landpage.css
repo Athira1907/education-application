@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 100vh;
+}
+.title{
+    font-weight: bolder;
+    font-size: 28px;
+}
+.sub-title{
+    font-size: 23px;
+
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons{
+    display: flex;
+   flex-direction: row;
+   row-gap: 10px;
+   column-gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon{
+    font-size: 32px;
+    color: cadetblue;
+}

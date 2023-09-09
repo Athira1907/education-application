@@ -1,0 +1,117 @@
+h3{
+    text-align: center;
+}
+.container{
+    margin-top: 30px;
+   padding: 30px;
+}
+.content2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 30px;
+}
+.image{
+    /* padding: 20px; */
+    width: 500px;
+    height: 500px;
+  
+  background-color: #fff;
+}
+.image img{
+    height: 100%;
+    width:100%; 
+    border-radius: 20px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 20px;
+    padding: 20px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+.heading i{
+    font-size: 22px;
+    color: #fff;
+}
+.card{
+    width: 440px;
+    height: 160px;
+ padding: 20px;
+ border: 1px solid #d8d5d5;
+ /* border-radius: 20px; */
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ box-shadow: 10px 10px 8px #ccc8c8;
+ background-color: #fff;
+ cursor: pointer;
+ transition: all 2s;
+}
+.card:hover{
+    background-color: cadetblue;
+}
+.card:hover p,h4{
+    color: #fff;
+    font-size: 20px;
+}
+.card:hover h4{
+    color: #fff;
+    font-size: 20px;
+}
+.card p, h4{
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+    transition: all 1s;
+}
+.card  h4{
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    font-weight: 800;
+   
+}
+#book{
+    font-size: 20px;
+}
+h3{
+    color: cadetblue;
+}
+.card-1{
+    width: 260px;
+    height: 270px;
+    border: 1px solid #d8d5d5;
+ /* border-radius: 20px; */
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ /* box-shadow: 10px 10px 8px #ccc8c8; */
+ background-color: #fff;
+ cursor: pointer;
+ transition: all 2s;
+ z-index: 1;
+}
+.card-1:hover{
+    box-shadow: 20px 20px 2px #c2c0c0;
+    
+    z-index: 2;
+}
+
+.row{
+    display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ row-gap: 20px;
+ align-items: center;
+ padding-top: 30px;
+}
